@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pract 1</title>
+
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     
     <header>
-        <h1><bold>BIO DATA :</bold></h1>
+        <h1 id="heading_1"><bold>BIO DATA :</bold></h1>
     </header>
 
     <hr>
@@ -16,15 +18,15 @@
     <nav id="index">
     <div>
         <h3>Index :</h3>
-        <ul>
-            <li><a href="#1">Personal Information</a></li>
-            <li><a href="#2">Education Qualification</a></li>
-            <li><a href="#3">Hobby</a></li>
-            <li><a href="#4">Soft Skills</a></li>
-            <li><a href="#5">Technical skills</a></li>
-            <li><a href="#6">Technical Experience</a></li>
-            <li><a href="#7">Extra Ciriculran activities</a></li>
-            <li><a href="#8">Contact Me</a></li>
+        <ul class="index_link">
+            <li><a href="#personal_info"style="text-decoration: none;">Personal Information</a></li>
+            <li><a href="#2"style="text-decoration: none;">Education Qualification</a></li>
+            <li><a href="#3"style="text-decoration: none;">Hobby</a></li>
+            <li><a href="#4"style="text-decoration: none;">Soft Skills</a></li>
+            <li><a href="#5"style="text-decoration: none;">Technical skills</a></li>
+            <li><a href="#6"style="text-decoration: none;">Technical Experience</a></li>
+            <li><a href="#7"style="text-decoration: none;">Extra Ciriculran activities</a></li>
+            <li><a href="#8"style="text-decoration: none;">Contact Me</a></li>
         </ul>
     </div>
     </nav>
@@ -33,11 +35,14 @@
 
     <main>
 
-    <nav id="personal info">
+    <nav id="personal_info">
 
-    <div id="1">
+    <div id="Personal">
     <h3>Personal Information :</h3>
-    <pre> <image src="image/labh pic.jpg"height="100px"alt="labh pic"></image>
+
+   <!--  <image src="image/labh pic.jpg" height="124px"></image> -->
+    <div id="profile_image"></div>
+    <pre> 
 
 <b>Name</b> :          Patel labh shaileshabhai  
 
@@ -155,9 +160,11 @@
 
 <hr>
 
+<div class="contact_me">
 <footer>
 
     <nav id="8">
+    
     <form action="/contact.php">
     <h4>Contact Me:</h4>
 
@@ -204,9 +211,11 @@
     <br><br>
     <input type="submit">
 </form>
+
 </nav>
 
 </footer>
+</div>
    
 </body>
 </html>
