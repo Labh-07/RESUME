@@ -1,0 +1,29 @@
+*{
+    background-color: white;
+}
+
+
+h1{
+    color:rgb(187, 41, 9);
+}
+
+h3,h4{
+    color:rgba(238, 63, 63,0.75);
+}
+
+.index_link{
+    text-decoration: none;
+}
+
+#profile_image{
+        height:160px;
+        width:130px;
+        background-image: url(image/labh\ pic.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(0, 0, 0);
+        background-position: center;
+        /* background :white url(image/labh\ pic.jpg) no-repeat center; */
+}
+
+
