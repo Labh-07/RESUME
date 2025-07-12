@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects.jsx";
 import Footer from "./components/Footer.jsx";
 import Resume from "./components/Resume/ResumeNew.jsx";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate,
