@@ -1,6 +1,5 @@
 {
   "name": "package.json",
-  "homepage": "https://Labh-07.github.io/RESUME/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-pdf/renderer": "^4.3.0",
@@ -19,7 +16,6 @@
     "@testing-library/user-event": "^14.6.1",
     "axios": "^1.10.0",
     "bootstrap": "^5.3.7",
-    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
