@@ -12,6 +12,7 @@ import cert4_2 from "../../Assets/Certifications/1.4 DBMS Part 2.jpg";
 import cert5 from "../../Assets/Certifications/1.5 No SQL DB.jpg";
 import cert6 from "../../Assets/Certifications/1.6 Agile Scrum.jpg";
 import cert7 from "../../Assets/Certifications/1.7 DSA With java.jpg";
+import cert8 from "../../Assets/Certifications/1.8 Master in Data Science.jpg";
 
 import gallery1 from "../../Assets/Gallery/2.1 Team lead.jpg";
 import gallery2 from "../../Assets/Gallery/1.2 Programming using java.jpg";
@@ -65,6 +66,12 @@ function Achievements() {
       imgPath: cert7,
       description:
         "Successfully completed the 'Data Structures and Algorithms using Java' course offered by Infosys Springboard. The course covered key topics such as arrays, linked lists, stacks, queues, trees, and sorting/searching algorithms—implemented using Java—building strong problem-solving and programming skills. Date of Completion: August 20, 2024.",
+    },
+    {
+      title: "Udemy – Master in Data Science and Data Analytics",
+      imgPath: cert8,
+      description:
+        "Completed the 'Master in Data Science and Data Analytics' course on Udemy, taught by Arun Singhal (B-Tech, MBA – IIM-B). This 5.5-hour course provided a practical overview of core data science and analytics concepts, including data processing, business insights, and data-driven decision-making. Date of Completion: May 1, 2024.",
     },
   ];
 
