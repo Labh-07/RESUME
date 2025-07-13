@@ -3,12 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import MiniProjects from "../../Assets/Projects/MiniProjects.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import projectMedTrack from "../../Assets/Projects/projectMedTrack.png";
 import projectExpandingExpress from "../../Assets/Projects/projectExpandingExpress.png";
 import chatify from "../../Assets/Projects/ProjectSCIM.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -39,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="Med-Track - Healthcare Appointment System"
               description="Developed a complete medical appointment platform for managing doctor-patient interactions. Features include searching doctors byspecialty, booking appointments, and payment flow. Admins can manage doctors and fees. Built using Spring Boot and MongoDB."
-              ghLink="https://github.com/Labh-07/Info-project.git"
+              ghLink="https://github.com/Labh-07/Med-Track.git"
               demoLink=""
             />
           </Col>
